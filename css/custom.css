@@ -303,7 +303,7 @@ color:#fff;
 position:absolute;
 float:left;
 font-family: 'Prosto One', cursive;
-font-size: 38px;
+font-size: 36px;
 font-weight:600;
  text-shadow: 
 0px 3px 0px #003580,
@@ -383,9 +383,11 @@ font-size:17px;
 
 
 .firstheader {
-margin-left:200px;
+margin-left:250px;
 color:#fff;
 font-weight:bold;
+font-family: 'Prosto One', cursive;
+font-size:24px;
 
 }
 
