@@ -86,7 +86,6 @@ opacity:0.9;
 
 
 
-
 /* Adspace   */
 
 #adspace {
@@ -319,7 +318,7 @@ position: absolute;
 /*! Hover img links transparancy change to bright light */
 
 a.imglink{
-  background:         white;
+  background:         #ffff4c;
   display:            inline-block;
 }
 
@@ -335,7 +334,7 @@ a.imglink img{
 a.imglink:hover img{
 
   ofilter: alpha(opacity=60);
-    opacity: .6;
+    opacity: .7;
 }
 
 
