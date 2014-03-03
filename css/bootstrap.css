@@ -4414,7 +4414,9 @@ margin-bottom:-30px;
 }
 
 .navbar-collapse.in {
-  overflow-y: auto;
+  overflow-y: visible;
+margin-left:0px;
+margin-top: 0px;
 }
 
 @media (min-width: 768px) {

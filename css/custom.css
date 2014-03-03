@@ -68,6 +68,16 @@ opacity:0.9;
 }
 
 
+
+.navbar-collapse.in {
+  overflow-y: visible;
+margin-left:0px;
+margin-top: 0px;
+padding-top:5px;
+}
+
+
+
 /* White Mid Navbar Li Hover Background Color*/
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -91,6 +101,11 @@ opacity:0.9;
   
 }
 
+
+#midnav {
+
+
+}
 
 
 /* Adspace   */
