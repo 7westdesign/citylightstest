@@ -69,13 +69,20 @@ opacity:0.9;
 
 
 
-.navbar-collapse.in {
+#midnav.in {
   overflow-y: visible;
 margin-left:0px;
-margin-top: 0px;
+margin-top: 200px;
 padding-top:5px;
+
 }
 
+
+
+#midnav.in > ul.navbar-nav {
+margin-top: -205px;
+
+}
 
 
 /* White Mid Navbar Li Hover Background Color*/
