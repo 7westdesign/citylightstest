@@ -301,18 +301,23 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 
 /*! Put margin top -10px to three images group */
 
-.wide-display  {
-  min-width:33%;
+#wide-display  {
   position: relative;
-  width: 100%;
-  height:100%;
+oveflow:hidden;
+  min-width: 100%;
+  min-height:100%;
   margin-top:6px;
-  overflow: hidden;
   height:366px;
 }
 
+.col-md-4  {
 
+position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
 
+}
 /*! First img Holder */
 
 #firstholder {
@@ -321,7 +326,6 @@ height: 100%;
 float:left;
 display:inline-block;
 margin-left:1px;
-margin-right:0px;
 
 }
 
@@ -335,11 +339,11 @@ position:relative;
 
 
 #secondholder {
-width: 450px;
+width: 449px;
 height: 100%;
 float:left;
 display:inline-block;
-margin-right:0px;
+margin-left:0px;
 
 }
 
