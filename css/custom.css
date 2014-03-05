@@ -42,7 +42,7 @@ opacity:0.9;
 
   background-color:#fff ;
   border-color: #e7e7e7;
-  top:147px;
+  top:146px;
  
  
 -moz-box-shadow:    inset  0  4px 4px -4px #b4b3b3, 
@@ -62,7 +62,7 @@ opacity:0.9;
 
 #midnav.in {
   overflow-y: visible;
-margin-left:1px;
+margin-left:0px;
 margin-top: 200px;
 padding-top:5px;
 
@@ -70,7 +70,7 @@ padding-top:5px;
 
 #midnav.in > ul.navbar-nav {
 margin-top: -205px;
-margin-left:9px
+margin-left:-20px
 }
 
 #midnav.in > ul.navbar-nav > li > a {
@@ -198,8 +198,8 @@ text-shadow: -2px 2px 3px #003176;
 #headline24 {
 font-family: 'Prosto One', cursive;
  font-size: 20px;
- margin-top:78px;
-margin-left:633px;
+ margin-top:77px;
+margin-left:630px;
  font-weight:700;
  float:left;
 font-style:italic;
@@ -309,7 +309,7 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
   overflow:hidden;
   width: 100%;
   height:100%;
-  margin-top:6px;
+  margin-top:4px;
   
 }
 
@@ -334,8 +334,34 @@ margin-top:0px;
 
 .item1 {
 width: 24%;
+
 margin:  auto;
 position:relative;
+}
+
+.homeitem {
+width: 100%;
+margin-top:  100px;
+
+float:left;
+}
+
+.homeitem2 {
+width: 100%;
+margin-top:  150px;
+position:relative;
+}
+
+.photoheading {
+z-index:100;
+color:#fff;
+position:absolute;
+float:left;
+font-family: 'Prosto One', cursive;
+font-size: 28px;
+font-weight:600;
+ text-shadow: 2px 2px 1px #00204d;
+           
 }
  
 
@@ -457,6 +483,27 @@ font-size:24px;
 
 }
 
+.officeheader {
+text-align:center;
+color:#fff;
+font-weight:bold;
+font-family: 'Prosto One', cursive;
+font-size:24px;
+text-shadow: -2px 2px 3px #003176;
+
+}
+
+.officeheading {
+text-align:left;
+color:#fff;
+font-weight:bold;
+font-family: 'Prosto One', cursive;
+font-size:24px;
+text-shadow: -2px 2px 3px #003176;
+
+}
+
+
 #header_container {
 height:100px; position:fixed; width:1000px; top:0; margin: auto; display: block;
 
@@ -469,14 +516,14 @@ color:#fff;
 
 }
 
-.sideoffice {
-
-
+#sideoffice {
+margin-left:11px;
+margin-top:22px;
 }
 
 .officesummary {
-margin-top:55px;
-margin-left:5px;
+text-align:left;
+margin-left:2px;
 color:#fff;
 }
 
@@ -492,6 +539,23 @@ background: #1542bd;
 opacity:0.9;
 }
 
+#bottomoffice, #bottomhome{
+width:100%;
+margin-top:4px;
+background: #1542bd;
+opacity:0.9;
+}
+
+
+
+#officepic {
+margin-top:11px;
+
+}
+
+#officetop {
+margin-bottom:11px;
+}
 
 footer {
 
