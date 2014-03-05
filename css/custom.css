@@ -185,7 +185,7 @@ font-family: 'Prosto One', cursive;
 #headline33 {
 font-family: 'Prosto One', cursive;
  font-size: 23px;
- margin-top:73px;
+ margin-top:67px;
 margin-left:225px;
  font-weight:800;
  float:left;
@@ -198,11 +198,11 @@ text-shadow: -2px 2px 3px #003176;
 #headline24 {
 font-family: 'Prosto One', cursive;
  font-size: 20px;
- margin-top:77px;
+ margin-top:71px;
 margin-left:630px;
  font-weight:700;
  float:left;
-font-style:italic;
+font-style:normal;
 position:absolute;
  color:#fff;
 text-shadow: -2px 2px 3px #003176;
@@ -443,6 +443,11 @@ width:100%;
 height:366px;
 }
 
+#electricoffice {
+width:100%;
+height:366px;
+}
+
 #electrictwo {
 width:100%;
 height:366px;
@@ -516,16 +521,7 @@ color:#fff;
 
 }
 
-#sideoffice {
-margin-left:11px;
-margin-top:22px;
-}
 
-.officesummary {
-text-align:left;
-margin-left:2px;
-color:#fff;
-}
 
 
 /*! Bottom Marketing Content */
@@ -548,13 +544,27 @@ opacity:0.9;
 
 
 
-#officepic {
-margin-top:11px;
-
+#officespace{
+margin-top:15px;
+}
+#officefront{
+margin-top:15px;
 }
 
 #officetop {
-margin-bottom:11px;
+margin-top:0px;
+margin-bottom:4px;
+}
+
+#sideoffice {
+margin-left:11px;
+margin-top:18px;
+}
+
+.officesummary {
+text-align:left;
+margin-left:2px;
+color:#fff;
 }
 
 footer {
