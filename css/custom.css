@@ -2,9 +2,10 @@
 @import url(http://fonts.googleapis.com/css?family=Prosto+One);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+
+
+
 /* City Lights Logo  */
-
-
 #cllogo  {
 float:left;
 display:inline-block;
@@ -15,40 +16,26 @@ width: 195px;
 height:145px;
 padding-bottom:0px;
 margin-bottom:-30px;
-
 }
 
-
-
 /* Top Navbar */
-
 .navbar-inverse {
 background:#1542bd;
 opacity:0.9;
 border: none;
 height:144px;
-opacity:0.9;
-	
+opacity:0.9;	
 }
 
- 
-
-
 /* White Mid Navbar */
-
 .navbar-default  {
-
   background-color:#fff ;
   border-color: #e7e7e7;
   top:144px;
- 
- 
-
 }
 
 
 /* Style the links once they are Collapsed (.in!)*/
-
 .navbar-collapse.in {
     overflow-y: visible;
 }
@@ -66,55 +53,44 @@ margin-top: -205px;
 margin-left:-20px
 }
 
+#midnav > ul.navbar-nav > li > a {
+color:#555;
+}
+
+#midnav > ul.navbar-nav > li > a:hover {
+color:#fff;
+}
+
 #midnav.in > ul.navbar-nav > li > a {
 color:#333;
 }
 
 #midnav.in > ul.navbar-nav > li > a:hover {
 color:#fff;
-
 }
 
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover {
   color: #fff;
-  
 }
-
 
 /* White Mid Navbar Li Hover Background Color*/
-.nav > li > a:hover,
-.nav > li > a:focus {
+.navbar-nav > li:hover {
   text-decoration: none;
   background-color: #939393;
 }
 
 /* White Mid Navbar a.active:hover link color*/
-
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-
  color: #fff;
 }
 
-/* White Mid Navbar a.active:hover link color*/
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #fff;
-  
-}
-
-
 #midnav {
 margin-left:270px;
-
 }
 
-
 /* Adspace   */
-
 #adspace {
 position:absolute;
 display:inline-block;
@@ -124,9 +100,7 @@ margin-left:200px;
 background:#fff;
 height:75px;
 width:690px;
-
 }
-
 
 #topline {
 font-family: 'Prosto One', cursive;
@@ -137,10 +111,7 @@ margin-top:-10px;
 margin-left:58px;
  display:inline-block;
  color:yellow;
-
 }
-
-
 
 #topline2{
 font-family: 'Prosto One', cursive;
@@ -170,7 +141,7 @@ font-family: 'Prosto One', cursive;
  font-weight:bold;
  float:top-left;
  margin-top:-33px;
- margin-left:30px;
+ margin-left:26px;
  display:inline-block;
  color:#fff;
 }
@@ -278,32 +249,26 @@ margin-top:-7px;
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-background:#fff;
+  background:#fff;
   padding-top: 194px;
   padding-bottom: 0px;
 }
 
-
 #reviewimg {
-
 margin-top:15px;
 margin-left:150px;
 margin-bottom:15px;
-
 -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
 box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
-
 }
 
 /*! Put margin top -10px to three images group */
-
 .wide-display  {
   overflow:hidden;
   width: 100%;
   height:100%;
   margin-top:1px;
-  
 }
 
 .col-md-4  {
@@ -320,16 +285,13 @@ width: 450px;
 height: 100%;
 display:inline-block;
 margin-top:0px;
-
-
 }
 
 
 .item1 {
-width: 24%;
-
-margin:  auto;
-position:relative;
+width: 33%;
+margin:auto;
+z-index:10;
 }
 
 .homeitem {
@@ -373,12 +335,7 @@ width: 450px;
 height: 100%;
 float:left;
 display:inline-block;
-
-
-
 }
-
-
 
 #leftangie {
 margin-left:-100px;
@@ -386,30 +343,25 @@ margin-top:2px;
 float:right;
 }
 
-
-
 .slickfont1 {
 z-index:10;
 color:#fff;
 position:absolute;
-float:left;
 font-family: 'Prosto One', cursive;
 font-size: 33px;
 font-weight:600;
- text-shadow: 2px 2px 1px #00204d;
-            
-
+text-shadow: 2px 2px 1px #00204d;
+top:38px;          
 }
 
 .slickfont {
 font-family: 'Open Sans', sans-serif;
 font-size: 38px;
 font-weight:300;
-z-index:10;
+z-index:100;
 color:#fff;
 position: absolute;
 }
-
 
 /*! Hover img links transparancy change to bright light */
 
@@ -418,18 +370,15 @@ a.imglink{
   display:            inline-block;
 }
 
-
 a.imglink img {
   transition:         opacity 0.8s;
   -webkit-transition: opacity 0.8s;
 }
 
 a.imglink:hover img{
-
   ofilter: alpha(opacity=60);
     opacity: .6;
 }
-
 
 #electricone {
 width:100%;
@@ -445,17 +394,12 @@ margin-bottom:15px;
 #electrictwo {
 width:100%;
 height:366px;
-
 }
-
 
 #thirdelectric {
 width:100%;
 height:366px;
-
-
 }
-
 
 .navbar-nav > li > a {
 padding-left:33px;
@@ -465,10 +409,10 @@ font-weight:normal;
 text-shadow:none;
 font-family: 'Prosto One', cursive;
 font-size:17px;
+text-decoration: none; 
 }
 
-.navbar-default .navbar-nav > .active > a
-{
+.navbar-default .navbar-nav > .active > a {
   color: #3D3D3D; 
 }
 
@@ -478,14 +422,13 @@ text-align:center;
 color:#fff;
 font-weight:bold;
 font-family: 'Prosto One', cursive;
+text-shadow: -2px 2px 3px #003176;
 font-size:24px;
-
+margin-bottom:20px;
 }
 
 #officepic, #homepic {
-
 margin-top:11px;
-
 }
 
 .officeheader {
@@ -495,7 +438,6 @@ font-weight:bold;
 font-family: 'Prosto One', cursive;
 font-size:24px;
 text-shadow: -2px 2px 3px #003176;
-
 }
 
 .officeheading {
@@ -505,7 +447,6 @@ font-weight:bold;
 font-family: 'Prosto One', cursive;
 font-size:24px;
 text-shadow: -2px 2px 3px #003176;
-
 }
 
 .officemain {
@@ -518,14 +459,10 @@ font-weight:bold;
 font-family: 'Prosto One', cursive;
 font-size:24px;
 text-shadow: -2px 2px 3px #003176;
-
 }
-
 
 #header_container {
 height:100px; position:fixed; width:1000px; top:0; margin: auto; display: block;
-
-
 }
 
 .introsummary {
@@ -535,12 +472,7 @@ font-size:13px;
 text-align:justify;
 }
 
-
-
-
 /*! Bottom Marketing Content */
-
-
 #bottommarketing, #bottomreviews {
 
 width:100%;
@@ -556,7 +488,6 @@ background: #1542bd;
 opacity:0.9;
 }
 
-
 #reviewbottom {
 width:100%;
 margin-top:1px;
@@ -564,55 +495,54 @@ background: #1542bd;
 opacity:0.9;
 margin-bottom:5px;
 }
-
 #officespace{
 margin-top:7px;
 }
 #officefront{
 margin-top:15px;
 }
-
 #officetop {
 margin-top:5px;
 margin-bottom:0px;
 }
-
 #sideoffice {
 margin-left:0px;
 margin-top:18px;
 }
-
 .officesummary {
 text-align:justify;
 margin-top:16px;
 text-indent:50px;
 font-family: 'Prosto One', cursive;
 color:#fff;
-font-size:13px;
+font-size:14px;
 }
 
 #officeshow {
 margin-top:16px;
-
 }
-
 #pic3 {
 margin-bottom:100px;
-
+}
+.sidefont {
+font-family: 'Open Sans', sans-serif;
+font-size: 38px;
+font-weight:300;
+text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
 }
 
-footer {
+#footer {
+height:100px;
 
 }
 
 .footer1 {
+margin-top:5px;
+margin-bottom:10px;
 float:center;
 font-size:12px;
 font-weight:800;
 color:#fff;
 font-family: 'Open Sans', sans-serif;
 }
-
-
-
 
