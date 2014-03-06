@@ -474,11 +474,10 @@ text-align:justify;
 
 /*! Bottom Marketing Content */
 #bottommarketing, #bottomreviews {
-
 width:100%;
 margin-top:-4px;
 background: #1542bd;
-opacity:0.9;
+
 }
 
 #bottomoffice, #bottomhome  {
