@@ -89,27 +89,111 @@ margin-left:295px;
 max-height:53px;
 }
 
+
+#leftnav {
+
+float:left;
+margin-left:185px;
+margin-top:-55px;
+width:1000px;
+background:none;
+
+}
 /* Adspace   */
 #adspace {
-position:absolute;
 display:inline-block;
+position:relative;
 float:left;
-margin-top:75px;
-margin-left:200px;
-background:#fff;
-height:75px;
-width:690px;
+margin-top:2px;'
+margin-left:150px;
+background:none;
+height:52px;
+width:900px;
 }
 
-#topline {
+
+#headline33 {
+font-family: 'Prosto One', cursive;
+ font-size: 23px;
+ font-weight:800;
+ float:left;
+font-style:normal;
+margin-left:35px;
+ color:#fff;
+text-shadow: -2px 2px 3px #003176;
+}
+
+/* Angies List Logo Div */
+
+#logospace {
+display:inline-block;
+position:relative;
+float:top-left;
+margin-top:0px;
+margin-left:20px;
+width:170px;
+height:50px;
+background:#000;
+}
+
+#phonespace {
+
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:0px;
+margin-bottom:-3px;
+background:#000;
+height:25px;
+min-width:142px;
+}
+
+#showspace {
+
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:0px;
+margin-bottom:-3px;
+background:yellow;
+height:25px;
+min-width:20px;
+
+}
+
+#addressspace {
+
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:0px;
+margin-bottom:-3px;
+background:orange;
+height:25px;
+width:190px;
+}
+
+
+#topline3{
 font-family: 'Prosto One', cursive;
  font-size: 11px;
  font-weight:bold;
  float:top-left;
 margin-top:-10px;
-margin-left:58px;
+margin-left:0px;
  display:inline-block;
- color:yellow;
+ color:#fff;
+}
+
+#address2 {
+display:inline-block;
+float:left;
+margin-top:0px;
+margin-left:0px;
+margin-bottom:-3px;
+background:red;
+height:25px;
+width:155px;
 }
 
 #topline2{
@@ -118,55 +202,40 @@ font-family: 'Prosto One', cursive;
  font-weight:bold;
  float:top-left;
 margin-top:-10px;
-margin-left:30px;
+margin-left:0px;
  display:inline-block;
  color:#fff;
+}
+
+#topline {
+font-family: 'Prosto One', cursive;
+ font-size: 11px;
+ font-weight:bold;
+ float:top-left;
+margin-top:-10px;
+margin-left:0px;
+ display:inline-block;
+ color:yellow;
 }
 
 #topline4{
 font-family: 'Prosto One', cursive;
  font-size: 11px;
  font-weight:bold;
- float:top-left;
+ float:left;
 margin-top:-10px;
 margin-left:22px;
  display:inline-block;
  color:#fff;
 }
 
-#topline3{
-font-family: 'Prosto One', cursive;
- font-size: 11px;
- font-weight:bold;
- float:top-left;
- margin-top:-33px;
- margin-left:26px;
- display:inline-block;
- color:#fff;
-}
-
-#headline33 {
-font-family: 'Prosto One', cursive;
- font-size: 23px;
- margin-top:67px;
-margin-left:225px;
- font-weight:800;
- float:left;
-font-style:normal;
-position:absolute;
- color:#fff;
-text-shadow: -2px 2px 3px #003176;
-}
-
 #headline24 {
 font-family: 'Prosto One', cursive;
  font-size: 22px;
- margin-top:68px;
-margin-left:630px;
  font-weight:700;
+margin-left:15px;
  float:left;
 font-style:normal;
-position:absolute;
  color:#fff;
 text-shadow: -2px 2px 3px #003176;
 }
@@ -178,60 +247,33 @@ margin-top:0px;
 font-size: 14px;
 font-weight:bold;
 float:left;
-clear:both;
+
 display:inline;
 color:#fff;
 text-shadow: none;
 }
 
-/* Angies List Logo Div */
 
-#logospace {
-
-display:inline-block;
-float:left;
-margin-top:-44px;
-margin-left:570px;
-width:170px;
-background:none;
-}
-
-#angy {
-margin-top:12px;
-width:77px;
-height:77px;
-margin-top:11px;
-margin-left:12px;
-float:left;
-overflow:hidden;
-
-}
-
-/* Angies List Logos */
-
-#alogo2  {
-display:inline-block;
-padding-top:-2px;
-margin-top:0px;
-margin-left:0px;
-width: 60px;
-height:60px;
-padding-bottom:0px;
-margin-bottom:-30px;
-
-}
 #alogo3  {
 float:left;
 display:inline-block;
-padding-top:-2px;
-margin-top:12px;
-margin-left:11px;
+margin-top:0px;
+margin-left:0px;
 width: 55px;
 height:55px;
 padding-bottom:0px;
-margin-bottom:-30px;
+}
+
+#angy {
+
+width:77px;
+height:77px;
+margin-top:0px;
+margin-left:0px;
+float:left;
 
 }
+
 
 /* Right call now header */
 
