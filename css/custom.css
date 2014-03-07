@@ -130,7 +130,7 @@ display:inline-block;
 position:relative;
 float:top-left;
 margin-top:0px;
-margin-left:20px;
+margin-left:100px;
 width:170px;
 height:50px;
 background:#000;
@@ -306,9 +306,9 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 
 /*! Put margin top -10px to three images group */
 #wide-display  {
-  overflow:hidden;
   margin-top:0px;
-
+background:#fff;
+min-width:100%;
 }
 
 .col-md-4  {
@@ -322,6 +322,21 @@ padding:0px;
 
 #firstholder {
 display:inline-block;
+float:left;
+margin-top:1px;
+
+
+}
+#secondholder {
+float:left;
+display:inline-block;
+
+}
+
+#thirdholder {
+float:left;
+display:inline-block;
+
 }
 
 
@@ -358,8 +373,6 @@ font-weight:600;
 #secondholder {
 float:left;
 display:inline-block;
-
-
 }
 
 #thirdholder {
@@ -441,6 +454,9 @@ margin-bottom:15px;
 
 }
 
+
+
+
 .navbar-nav > li > a {
 padding-left:33px;
 padding-right:33px;
@@ -455,6 +471,8 @@ text-decoration: none;
 .navbar-default .navbar-nav > .active > a {
   color: #3D3D3D; 
 }
+
+@media (max-width: 480px) { .col-ts-12 { float: none; width:100%; } }
 
 
 .firstheader {
