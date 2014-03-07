@@ -3,8 +3,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 
-
-
 /* City Lights Logo  */
 #cllogo  {
 float:left;
@@ -87,7 +85,7 @@ color:#fff;
 }
 
 #midnav {
-margin-left:270px;
+margin-left:245px;
 }
 
 /* Adspace   */
@@ -249,7 +247,7 @@ margin-top:-7px;
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  background:#fff;
+  background:#1542bd;
   padding-top: 194px;
   padding-bottom: 0px;
 }
@@ -264,11 +262,10 @@ box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
 
 /*! Put margin top -10px to three images group */
-.wide-display  {
+#wide-display  {
   overflow:hidden;
-  width: 100%;
-  height:100%;
-  margin-top:1px;
+  margin-top:0px;
+
 }
 
 .col-md-4  {
@@ -281,15 +278,12 @@ padding:0px;
 /*! First img Holder */
 
 #firstholder {
-width: 450px;
-height: 100%;
 display:inline-block;
-margin-top:0px;
 }
 
 
 .item1 {
-width: 33%;
+width: 150px;
 margin:auto;
 z-index:10;
 }
@@ -297,7 +291,6 @@ z-index:10;
 .homeitem {
 width: 100%;
 margin-top:  100px;
-
 float:left;
 }
 
@@ -319,20 +312,14 @@ font-weight:600;
            
 }
  
-
-
 #secondholder {
-width: 450px;
-height: 100%;
 float:left;
 display:inline-block;
-margin-left:0px;
+
 
 }
 
 #thirdholder {
-width: 450px;
-height: 100%;
 float:left;
 display:inline-block;
 }
@@ -347,6 +334,18 @@ float:right;
 z-index:10;
 color:#fff;
 position:absolute;
+font-family: 'Prosto One', cursive;
+font-size: 33px;
+font-weight:600;
+margin-left:25px;
+text-shadow: 2px 2px 1px #00204d;
+top:105px;          
+}
+.slickfont2 {
+z-index:10;
+color:#fff;
+position:absolute;
+margin-left:16px;
 font-family: 'Prosto One', cursive;
 font-size: 33px;
 font-weight:600;
@@ -368,6 +367,7 @@ position: absolute;
 a.imglink{
   background:         #fff;
   display:            inline-block;
+width:100%;
 }
 
 a.imglink img {
@@ -381,8 +381,7 @@ a.imglink:hover img{
 }
 
 #electricone {
-width:100%;
-height:366px;
+
 }
 
 #electricoffice, #electrichome, #electricoffice2, #home3  {
@@ -392,13 +391,11 @@ margin-bottom:15px;
 }
 
 #electrictwo {
-width:100%;
-height:366px;
+
 }
 
 #thirdelectric {
-width:100%;
-height:366px;
+
 }
 
 .navbar-nav > li > a {
@@ -451,9 +448,9 @@ text-shadow: -2px 2px 3px #003176;
 
 .officemain {
 margin-top:10px;
-margin-bottom:25px;
+margin-bottom:50px;
 margin-left:0px;
-text-align:center;
+text-align:left;
 color:#fff;
 font-weight:bold;
 font-family: 'Prosto One', cursive;
@@ -470,6 +467,7 @@ font-family: 'Prosto One', cursive;
 color:#fff;
 font-size:13px;
 text-align:justify;
+
 }
 
 /*! Bottom Marketing Content */
@@ -531,12 +529,12 @@ text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
 }
 
 #footer {
-height:100px;
+height:70px;
 
 }
 
 .footer1 {
-margin-top:5px;
+margin-top:18px;
 margin-bottom:10px;
 float:center;
 font-size:12px;
